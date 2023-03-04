@@ -27,6 +27,6 @@ jobs:
     - name: Install Playwright CLI
       run: dotnet tool install --global Microsoft.Playwright.CLI
     - name: Install Playwright Browsers
-      run: pwsh bin\Debug\net7.0\playwright.ps1 install --with-deps
+      run: playwright install
     - name: Test
       run: dotnet test --no-build --verbosity normal
