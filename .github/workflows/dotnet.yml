@@ -25,6 +25,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Install Playwright Browsers
-      run: pwsh bin\Debug\net6.0\playwright.ps1 install --with-deps
+      run: pwsh bin\Debug\net7.0\playwright.ps1 install --with-deps
     - name: Test
       run: dotnet test --no-build --verbosity normal
