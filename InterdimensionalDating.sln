@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterdimensionalDating", "InterdimensionalDating\InterdimensionalDating.csproj", "{8B0E4501-73E5-4F92-A7B5-C09AC4D8757E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterdimensionalDatingService", "InterdimensionalDatingService\InterdimensionalDatingService.csproj", "{7949D9A7-4ADD-4292-A9D5-C2179B51B338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterdimensionalDating.Tests", "InterdimensionalDating.Tests\InterdimensionalDating.Tests.csproj", "{8CF9B504-BBFA-4BCE-B2CE-3AE3458947AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterdimensionalDatingService.Tests", "InterdimensionalDatingService.Tests\InterdimensionalDatingService.Tests.csproj", "{13E9D9F6-0555-47E9-B45A-F023ACD2A3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterdimensionalDating.Functional.Tests", "InterdimensionalDating.Functional.Tests\InterdimensionalDating.Functional.Tests.csproj", "{1D4AB397-2682-4D07-83EF-1D50D7F85E35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0E4501-73E5-4F92-A7B5-C09AC4D8757E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0E4501-73E5-4F92-A7B5-C09AC4D8757E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0E4501-73E5-4F92-A7B5-C09AC4D8757E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0E4501-73E5-4F92-A7B5-C09AC4D8757E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7949D9A7-4ADD-4292-A9D5-C2179B51B338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7949D9A7-4ADD-4292-A9D5-C2179B51B338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7949D9A7-4ADD-4292-A9D5-C2179B51B338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7949D9A7-4ADD-4292-A9D5-C2179B51B338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF9B504-BBFA-4BCE-B2CE-3AE3458947AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF9B504-BBFA-4BCE-B2CE-3AE3458947AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF9B504-BBFA-4BCE-B2CE-3AE3458947AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF9B504-BBFA-4BCE-B2CE-3AE3458947AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E9D9F6-0555-47E9-B45A-F023ACD2A3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E9D9F6-0555-47E9-B45A-F023ACD2A3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E9D9F6-0555-47E9-B45A-F023ACD2A3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E9D9F6-0555-47E9-B45A-F023ACD2A3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4AB397-2682-4D07-83EF-1D50D7F85E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4AB397-2682-4D07-83EF-1D50D7F85E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4AB397-2682-4D07-83EF-1D50D7F85E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4AB397-2682-4D07-83EF-1D50D7F85E35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
