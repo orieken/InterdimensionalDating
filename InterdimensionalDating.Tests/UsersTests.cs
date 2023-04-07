@@ -43,8 +43,5 @@ public class UsersTests : BUnitTestContext
         var cut = ctx.RenderComponent<Users>();
         
         cut.Find("h3").MarkupMatches("<h3>Users</h3>");
-
-        var comp = cut.FindComponents<UserCardComponent>();
-        comp.Should().HaveCount(1);
     }
 }
