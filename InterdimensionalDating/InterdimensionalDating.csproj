@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
-
+    <Target Name="PostBuild" AfterTargets="Build">
+        <Exec Command="npm run build" />
+    </Target>
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
